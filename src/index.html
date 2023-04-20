@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.scss" />
+    <title>Elares</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <a href="./index.html" class="logo">LOGO</a>
+
+          <nav class="header-nav">
+            <ul class="header-nav__list">
+              <li class="header-nav__item">
+                <a href="#about" class="header-nav__link">Про Нас</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#calculator" class="header-nav__link">Калькулятор</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#clients" class="header-nav__link">Клієнти</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#forDrivers" class="header-nav__link">Для Водіїв</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- About -->
+      <section class="section-about" id="about">
+        <div class="container">
+          <h1 class="title">Про Нас</h1>
+          <ul class="about-list">
+            <li class="about-list__item">
+              <p class="about-list__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
+                repellendus nam hic, possimus accusamus eum eligendi quae unde
+                natus aperiam corporis deserunt. Sint eveniet incidunt neque
+                consequatur aspernatur repellat accusamus?
+              </p>
+              <button type="button" class="about-button">Дізнатись ціну</button>
+            </li>
+            <li class="about-list__item">
+              <div class="about-list__image">
+                <img
+                  src="./img/photo_2023-02-12 12.22.54.jpeg"
+                  alt="Car"
+                  width="640px"
+                  height="420px"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="calculator" id="calculator">
+        <div class="container">
+          <h2>Розрахуйте доставку</h2>
+          <form>
+            <label>
+              <input type="text" placeholder="Введіть ім'я" />
+            </label>
+            <label>
+              <input type="number" placeholder="Введіть номер" />
+            </label>
+            <button type="submit">Розрахувати</button>
+          </form>
+        </div>
+      </section>
+      <section class="clients" id="clients">
+        <div class="container">
+          <h3>Наші Клієнти</h3>
+        </div>
+      </section>
+      <section class="for-drivers" id="forDrivers">
+        <div class="container">
+          <h3>Для Водіїв</h3>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <h3>Наша адреса</h3>
+        </li>
+        <li>
+          <h3>Зателефонувати нам</h3>
+        </li>
+        <li>
+          <h3>Написати нам</h3>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

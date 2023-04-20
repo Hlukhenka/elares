@@ -1,0 +1,25 @@
+.section-about {
+  padding-top: 100px;
+}
+
+.about-list {
+  display: flex;
+}
+
+.about-list__description{
+    margin-bottom: 15px;
+}
+
+.about-button {
+  padding: 16px 49px;
+  border: none;
+
+
+  background-color: $accent-color;
+  color: $background-color;
+  text-transform: uppercase;
+}
+
+.about-list__image {
+    margin-top: -120px;
+}
